@@ -1,0 +1,12 @@
+body nav div.container > a.navbar-brand {
+  color: violet;
+}
+body footer {
+  height: 5vh;
+  min-height: 5vh;
+  background-color: #2D2D2D;
+}
+body footer p {
+  text-align: center;
+  color: #ccc;
+}
