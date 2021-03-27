@@ -6,7 +6,7 @@
 
     <div class="row my-5">
         <div class="col-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card mx-auto" style="width: 18rem;">
                 <img src={{asset('img/cbr1.jpeg')}} class="card-img-top" alt="cbr.">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -16,7 +16,7 @@
               </div>
         </div>
         <div class="col-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card mx-auto" style="width: 18rem;">
                 <img src={{asset('img/cbr1.jpeg')}} class="card-img-top" alt="br.">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -26,7 +26,7 @@
               </div>
         </div>
         <div class="col-4">
-            <div class="card" style="width: 18rem;">
+            <div class="card mx-auto" style="width: 18rem;">
                 <img src={{asset('img/cbr1.jpeg')}} class="card-img-top" alt="cbr bg">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>

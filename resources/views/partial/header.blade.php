@@ -6,13 +6,16 @@
     </h1>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a href="/">Home </a></li>
             @if ($pagename == 'home')
-                <li class="breadcrumb-item active" aria-current="page"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page"> Welcome </li>
             @endif
             @if ($pagename == 'services')
-                <li class="breadcrumb-item"><a href="/">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a href="/services">Services</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Services</li>
             @endif     
+            @if ($pagename == 'about')
+                <li class="breadcrumb-item active" aria-current="page">About</li>
+            @endif   
           </ol>
       </nav>
 

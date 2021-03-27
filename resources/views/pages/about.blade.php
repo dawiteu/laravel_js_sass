@@ -3,7 +3,7 @@
 
 
 @section('content')
-        <div class="row">
+        <div class="row my-5">
             <div class="col-6">
                 <img src="https://dummyimage.com/750x450/b0b0b0/fff" alt="image 750 450" class="img-fluid">
             </div>
